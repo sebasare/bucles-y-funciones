@@ -49,5 +49,14 @@ for($centinela=0;$centinela<count($arreglo);$centinela++){
        echo "<br> el valor del cajon es: ".$valor;
    }
 
+   //arreglo multidimencional(arreglo de arreglos)
+
+   $usuarios=array(
+
+    'usuario1'=>array('nombre'=>"juan",'edad'=>30,'sexo'=>"masculino"),
+    'usuario2'=>array('nombre'=>"maria",'edad'=>20,'sexo'=>"femenino"),
+    'usuario3'=>array('nombre'=>"james",'edad'=>27,'sexo'=>"masculino"),
+    'usuario4'=>array('nombre'=>"sandra",'edad'=>23,'sexo'=>"femenino"),
+   )
 
 ?>
